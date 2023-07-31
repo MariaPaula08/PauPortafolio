@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: fit-content;
+}
+
+nav{
+    width: 100vw;
+    height: fit-content;
+    background: #A6CFFF;
+    position: fixed;
+    top: -0;
+    display: flex;
+    align-content: center;
+    padding-top: -0em;
+    z-index: -1;
+}
+nav .return{
+    position: absolute;
+    right: 1em;
+    color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+.logo{
+    position: absolute;
+    right: 0em;
+    width: 12em;
+    top: 34em;
+}
+.logoSisgo{
+    position: absolute;
+    width: 5em;
+    left: .5em;
+    top: 33em;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 9em;
+    margin-top: 7em;
+    gap: 1em;
+    flex-direction: column;
+}
+.container .dropdown{
+    display: flex;
+    gap: 1em;
+}
+.container .dropdown button{
+    background: #A6CFFF;
+    width: 15em;
+}
+.estado {
+    position: absolute;
+    right: 0em;
+    width: 12em;
+    top: 5em;
+  }
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-bottom: 50px;
+    top: 35em;
+  }
+  .pedidos, .zona, .hora, .tiempo {
+    font-weight: bold;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }

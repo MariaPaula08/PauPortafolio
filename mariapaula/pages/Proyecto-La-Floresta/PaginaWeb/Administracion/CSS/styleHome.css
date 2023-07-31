@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/fondo02.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+nav{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: #A6CFFF;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    gap: 1em;
+    background: #A6CFFF;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    border-left: 1px solid black;
+    height: 100%;
+    transition: all .5s;
+}
+nav ul li:hover{
+    padding: .3em 4em;
+}
+nav ul li:hover a{
+    color: rgb(78, 73, 65);
+    font-size: 1.3em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: .5em;
+    transition: all .5s;
+}
+
+.logo{
+    position: absolute;
+    right: -3em;
+    bottom: 0em;
+}
+.logoSisgo{
+    position: absolute;
+    width: 12em;
+    left: .5em;
+    top: 5em;
+}
